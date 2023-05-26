@@ -17,10 +17,12 @@
     display: flex;
 }
 #trybewarts-header-title {
-
+    font-size: 25px;
 }
 main {
     display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 #evaluation-form {
     display: flex;
