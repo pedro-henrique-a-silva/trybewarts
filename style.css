@@ -3,7 +3,7 @@
 }
 .header {
     display: flex;
-    position: fixed;
+    /* position: fixed; */
     height: 35px;
     top: 0;
     left: 0;
@@ -17,4 +17,15 @@
 }
 #trybewarts-header-title {
 
+}
+main {
+    display: flex;
+}
+#evaluation-form {
+    display: flex;
+    width: 675px;
+    flex-direction: column;
+}
+#trybewarts-forms-logo {
+    height: 500px;
 }
