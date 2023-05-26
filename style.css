@@ -16,9 +16,11 @@
 .trybewarts-login {
     display: flex;
 }
-#trybewarts-header-title {
 
+#trybewarts-header-title {
+  color: white;
 }
+
 main {
     display: flex;
 }
