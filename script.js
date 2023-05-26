@@ -1,6 +1,5 @@
 const formLogin = document.querySelector('.trybewarts-login');
 
-
 const validaLogin = () => {
   formLogin.addEventListener('submit', (event) => {
     event.preventDefault();
@@ -11,9 +10,7 @@ const validaLogin = () => {
     } else {
       alert('Email ou senha inválidos.');
     }
-
   });
 };
-
 
 validaLogin();

@@ -18,6 +18,7 @@
 }
 #trybewarts-header-title {
     font-size: 25px;
+    color: white;
 }
 main {
     display: flex;
