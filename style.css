@@ -11,8 +11,26 @@
   left: 0;
   right: 0;
   width: 100%;
-  justify-content: space-between;
+  padding: 15px 5px;
+  justify-content: space-around;
   background-color: rgb(50, 167, 145);
+}
+
+.trybewarts-login #email , .trybewarts-login #password {
+  border-radius: 5px;
+  border: none;
+  margin-right: 5px;
+}
+
+.trybewarts-login #email:focus , .trybewarts-login #password:focus {
+  border: none;
+  outline: none;
+}
+
+.btn-login {
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
 }
 
 .trybewarts-login {
@@ -40,8 +58,7 @@ main {
   height: 500px;
 }
 
-.form-inputs input,
-.form-inputs div {
+.form-inputs input , .form-inputs div {
   display: inline-block;
 }
 

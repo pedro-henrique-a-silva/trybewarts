@@ -1,4 +1,5 @@
 const formLogin = document.querySelector('.trybewarts-login');
+const agreement = document.querySelector('#agreement');
 
 const validaLogin = () => {
   formLogin.addEventListener('submit', (event) => {
@@ -13,4 +14,16 @@ const validaLogin = () => {
   });
 };
 
+const verifyAgreement = () => {
+  agreement.addEventListener('click', (event) => {
+    const btnSubmit = document.querySelector('#submit-btn');
+    if (event.target.checked) {
+      btnSubmit.removeAttribute('disabled');
+    } else {
+      btnSubmit.setAttribute('disabled', false);
+    }
+  });
+};
+
 validaLogin();
+verifyAgreement();
