@@ -39,3 +39,8 @@ main {
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+.form-inputs input,
+.form-inputs div {
+  display: inline-block;
+}
