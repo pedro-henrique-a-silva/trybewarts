@@ -1,5 +1,7 @@
 const formLogin = document.querySelector('.trybewarts-login');
 const agreement = document.querySelector('#agreement');
+const comments = document.querySelector('.form-inputs textarea');
+const counter = document.querySelector('#counter');
 
 const validaLogin = () => {
   formLogin.addEventListener('submit', (event) => {
@@ -25,5 +27,13 @@ const verifyAgreement = () => {
   });
 };
 
+const countCaractere = () => {
+  comments.addEventListener('keyup', (event) => {
+    const lengthComments = event.target.value.length;
+    counter.innerHTML = `${500 - lengthComments}`;
+  });
+};
+
 validaLogin();
 verifyAgreement();
+countCaractere();

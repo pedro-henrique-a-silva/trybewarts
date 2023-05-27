@@ -86,6 +86,7 @@ main {
 
   /* border: 1px solid blue; */
   margin: 10px 0;
+  position: relative;
   width: 70%;
 }
 
@@ -158,5 +159,11 @@ main {
 }
 
 .textarea + textarea {
-  width: 90%;
+  width: 100%;
+}
+
+#counter {
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
 }

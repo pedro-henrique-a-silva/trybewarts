@@ -40,13 +40,13 @@
         <section class="radio-familia">
           <label for="family" id="label-family">Qual sua família?</label>
           <label>
-            <input type="radio" name="family" id="radio-button" value="Frontend">Familia Frontend
+            <input type="radio" name="family" value="Frontend">Familia Frontend
           </label>
           <label>
-            <input type="radio" name="family" id="radio-button" value="Backend">Familia Backend
+            <input type="radio" name="family" value="Backend">Familia Backend
           </label>
           <label>
-            <input type="radio" name="family" id="radio-button" value="FullStack">Familia FullStack 
+            <input type="radio" name="family" value="FullStack">Familia FullStack 
           </label>
         </section>
 
@@ -109,7 +109,8 @@
       </div>
       <div class="form-inputs">
         <label for="" class="textarea">Deixe seu comentário:</label>
-        <textarea cols="30" rows="10" maxlength="500"></textarea>
+        <textarea id="textarea" cols="30" rows="10" maxlength="500"></textarea>
+        <p id="counter">500</p>
       </div>
       <div class="form-inputs">
         <label for="information" id="label-infos">Você concorda com o uso das informações acima?</label>
@@ -118,6 +119,9 @@
       <div class="form-inputs">
         <button type="submit" id="submit-btn" disabled>Enviar</button>
       </div>
+    </form>
+    <form action="GET" id="form-data">
+      
     </form>
     <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="logo TrybeWarts">
   </main>
