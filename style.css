@@ -1,12 +1,15 @@
 * {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .header {
   display: flex;
 
   /* position: fixed; */
-  height: 35px;
+
+  /* height: 35px; */
   top: 0;
   left: 0;
   right: 0;
@@ -17,6 +20,8 @@
 }
 
 .trybewarts-login #email , .trybewarts-login #password {
+  height: 40px;
+  padding: 25px 0;
   border-radius: 5px;
   border: none;
   margin-right: 5px;
@@ -27,7 +32,18 @@
   outline: none;
 }
 
+#input-name , #input-lastname , #input-email {
+  width: 200px;
+}
+
+.form-inputs #house {
+  width: 170px;
+}
+
 .btn-login {
+
+  /* height: 40px; */
+  padding: 5px 20px;
   border-radius: 5px;
   cursor: pointer;
   border: none;
@@ -44,6 +60,7 @@
 
 main {
   display: flex;
+  margin-top: 100px;
   flex-direction: row;
   justify-content: center;
 }
@@ -52,14 +69,73 @@ main {
   display: flex;
   width: 675px;
   flex-direction: column;
+  align-items: center;
+
+  /* border: 1px solid red; */
+}
+
+.trybewarts-header-logo {
+  height: 50px;
 }
 
 #trybewarts-forms-logo {
   height: 500px;
 }
 
-.form-inputs input , .form-inputs div {
+.form-inputs {
+
+  /* border: 1px solid blue; */
+  margin: 10px 0;
+  width: 70%;
+}
+
+.checkbox {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding: 10px 0;
+  display: flex;
+}
+
+.radio-familia {
+
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.radio-familia label {
+  padding: 5px;
+}
+
+.radio-familia input {
   display: inline-block;
+}
+
+.checkbox-content {
+
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+#label-content {
+  margin-bottom: 10px;
+}
+
+.checkbox-content div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.checkbox-content div label {
+  display: inline-block;
+  width: 33%;
+}
+
+.checkbox-content div label input {
+  margin-right: 4px;
 }
 
 #label-family {
@@ -67,9 +143,8 @@ main {
   flex-direction: column;
 }
 
-#radio-button {
-  display: flex;
-  flex-direction: column;
+#label-rate {
+  margin-right: 3px;
 }
 
 #footer {
@@ -77,11 +152,11 @@ main {
   justify-content: center;
 }
 
-.subject {
-  display: flex;
-  flex-direction: column;
+.textarea {
+  margin-bottom: 5px;
+  display: block;
 }
 
-.textarea {
-  display: block;
+.textarea + textarea {
+  width: 90%;
 }
