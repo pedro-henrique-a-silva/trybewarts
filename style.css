@@ -37,6 +37,12 @@ body {
   width: 210px;
 }
 
+.menu-hamburguer {
+  display: none;
+  color: white;
+  font-size: 35px;
+}
+
 .form-control , .form-select {
   display: inline-block;
   width: 200px;
@@ -78,7 +84,6 @@ main {
 #evaluation-form {
   display: flex;
   width: 675px;
-  /* min-width: 660px; */
   flex-direction: column;
   align-items: center;
   font-size: 12px;
@@ -92,6 +97,18 @@ main {
 
 #trybewarts-forms-logo {
   height: 500px;
+}
+
+#agreement {
+  margin: 5px;
+}
+
+.btn-success {
+  width: 60%;
+}
+
+.div-submit-button {
+  text-align: center;
 }
 
 .form-inputs {
@@ -170,7 +187,6 @@ main {
   display: block;
 }
 
-
 .form-control#textarea {
   height: 140px;
   width: 100%;
@@ -190,14 +206,37 @@ main {
   align-items: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and ( max-width : 300px ) {
+
+  #trybewarts-header-title {
+    font-size: 20px;
+  }
+
+}
+
+@media screen and ( max-width : 600px ) {
+
   #evaluation-form {
     min-width: 300px;
     font-size: 9px;
   }
+
+  .trybewarts-login {
+    display: none;
+  }
+
+  #trybewarts-forms-logo {
+    min-width: 150px;
+  }
+
+  .menu-hamburguer {
+    display: block;
+  }
+
 }
 
-@media screen and (max-width: 900px) {
+@media screen and ( max-width : 900px ) {
+
   main {
     flex-direction: column-reverse;
     align-items: center;
@@ -206,7 +245,7 @@ main {
 
   #evaluation-form {
     width: 50%;
-  } 
+  }
 
   .form-inputs {
     display: flex;
@@ -235,7 +274,7 @@ main {
   }
 
   .form-control#textarea {
-    width: 100% !important;
+    width: 100%;
   }
 
   #trybewarts-forms-logo {
@@ -254,19 +293,17 @@ main {
     width: 80px;
   }
 
-  /* .trybewarts-login input {
-    
-  } */
 }
 
 
-@media screen and (max-width: 1200px) {
+@media screen and ( max-width : 1200px ) {
+
   #evaluation-form {
     width: 65%;
-  } 
+  }
 
   #trybewarts-forms-logo {
     width: 30%;
   }
-};
 
+}
