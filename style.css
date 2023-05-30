@@ -221,6 +221,11 @@ main {
     font-size: 9px;
   }
 
+  #form-data {
+    min-width: 300px;
+    font-size: 12px;
+  }
+
   .trybewarts-login {
     display: none;
   }
@@ -244,6 +249,10 @@ main {
   }
 
   #evaluation-form {
+    width: 50%;
+  }
+
+  #form-data {
     width: 50%;
   }
 
@@ -299,6 +308,10 @@ main {
 @media screen and ( max-width : 1200px ) {
 
   #evaluation-form {
+    width: 65%;
+  }
+
+  #form-data {
     width: 65%;
   }
 
