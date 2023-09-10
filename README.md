@@ -1,21 +1,20 @@
-# Título do Projeto
+# TrybeWarts
 
 ## Descrição
 
-Este repositório está em construção. Aqui você encontrará [breve resumo do projeto ou curso] e seus componentes.
+Neste projeto, desenvolvi um formulário de cadastro simples, empregando o framework Bootstrap e aproveitando o poder do flexbox para controlar a disposição dos elementos na tela e melhorar a adaptabilidade à diferentes tamanhos de tela.
 
 ## Conteúdo
 
 - [Instruções de Instalação](#instruções-de-instalação)
-- [Como Usar](#como-usar)
 
 ## Instruções de Instalação
 
-Descreva aqui as instruções necessárias para configurar o ambiente de desenvolvimento e instalar quaisquer dependências.
+Execute o comando `npm install` para instalar as dependências.
 
 ## Como Usar
 
-Explique como usar. Forneça exemplos de código, capturas de tela ou demonstrações.
+Visualize o projeto com ajuda da extensão live server do VS codd
 
 ## Contribuição
 
@@ -29,5 +28,4 @@ Se você deseja contribuir para este projeto, siga estas etapas para contribuir:
 
 Lembre-se de que todas as contribuições são valorizadas e ajudam a tornar este projeto melhor para todos!
 
-## Continue como desejar este Readme.md
 **Observação:** Este repositório está em construção e será atualizado regularmente. Sinta-se à vontade para adicionar mais seções conforme necessário para o seu projeto.
