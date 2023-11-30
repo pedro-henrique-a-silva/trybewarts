@@ -1,31 +1,26 @@
 # TrybeWarts
 
-## Descrição
+Este projeto se trata de um formulário de cadastro simples que visa proporcionar uma experiência fácil e eficiente para os usuários.:
 
-Neste projeto, desenvolvi um formulário de cadastro simples, empregando o framework Bootstrap e aproveitando o poder do flexbox para controlar a disposição dos elementos na tela e melhorar a adaptabilidade à diferentes tamanhos de tela.
+## Tecnologias Utilizadas
 
-## Conteúdo
+- **Bootstrap:** Utilizei o framework Bootstrap para criar um layout responsivo e estilizado para o formulário. Isso proporciona uma aparência moderna e amigável.
 
-- [Instruções de Instalação](#instruções-de-instalação)
-
-## Instruções de Instalação
-
-Execute o comando `npm install` para instalar as dependências.
+- **Flexbox:** Aproveitei o poder do flexbox para controlar a disposição dos elementos na tela, garantindo uma experiência consistente em diferentes tamanhos de tela.
 
 ## Como Usar
 
-Visualize o projeto com ajuda da extensão live server do VS codd
+1. Clone este repositório em sua máquina local:
 
-## Contribuição
+   ```bash
+   git clone git@github.com:pedro-henrique-a-silva/trybewarts.git
 
-Se você deseja contribuir para este projeto, siga estas etapas para contribuir:
+2. Abra o arquivo index.html em seu navegador preferido.
+3. Preencha os campos do formulário de cadastro.
+4. Explore a adaptabilidade do layout, que se ajusta automaticamente para oferecer a melhor experiência em diferentes dispositivos.
 
-1. Crie um fork deste repositório.
-2. Crie um novo branch com um nome descritivo: `git checkout -b minha-contribuicao`
-3. Faça suas alterações e commit: `git commit -m "Adicionando minha contribuição"`
-4. Envie seu branch para o repositório: `git push origin minha-contribuicao`
-5. Abra um pull request neste repositório e aguarde o feedback.
+Sinta-se à vontade para personalizar e integrar este formulário em seus projetos!
 
-Lembre-se de que todas as contribuições são valorizadas e ajudam a tornar este projeto melhor para todos!
+## Contribuições
 
-**Observação:** Este repositório está em construção e será atualizado regularmente. Sinta-se à vontade para adicionar mais seções conforme necessário para o seu projeto.
+Contribuições são bem-vindas! Caso tenha sugestões de melhorias ou correções, sinta-se à vontade para abrir issues ou enviar pull requests.
